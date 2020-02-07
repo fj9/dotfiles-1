@@ -50,12 +50,7 @@ cask 'java'
 # cask 'slack' UNCOMMENT NEXT TIME remove from App Store section
 # cask 'rectangle' UNCOMMENT NEXT TIME
 cask 'dropbox'
-
-# Quicklook
-cask 'qlcolorcode'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'quicklook-csv'
+cask  cheatsheet'
 
 # Fonts
 cask 'font-lato'
