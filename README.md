@@ -1,4 +1,4 @@
-# Dries's Dotfiles
+# Freya's Dotfiles
 
 This repository serves as my way to help me setup and maintain my Mac. It takes the effort out of installing everything manually. Everything needed to install my preferred setup of macOS is detailed in this readme. Feel free to explore, learn and copy parts for your own dotfiles. Enjoy! :smile:
 
@@ -18,6 +18,8 @@ First, go through the checklist below to make sure you didn't forget anything be
 - Did you save all of your work from apps which aren't synced through iCloud?
 - Did you remember to export important data from your local database?
 - Did you update [mackup](https://github.com/lra/mackup) to the latest version and ran `mackup backup`?
+- Did you extract from Station
+- Did you extract from Slack all the domains
 
 ### Installing macOS cleanly
 
