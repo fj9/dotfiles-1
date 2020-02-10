@@ -108,6 +108,31 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 #sudo ln -s /path/to/your/image /System/Library/CoreServices/DefaultDesktop.jpg
 
 ###############################################################################
+# Menu Bar                                                                    #
+###############################################################################
+defaults write com.apple.systemuiserver menuExtras -array 
+"/System/Library/CoreServices/Menu Extras/AirPort.menu"
+"/System/Library/CoreServices/Menu Extras/Bluetooth.menu"
+"/System/Library/CoreServices/Menu Extras/Clock.menu" 
+"/System/Library/CoreServices/Menu Extras/Displays.menu"
+"/System/Library/CoreServices/Menu Extras/Volume.menu"
+
+# Show display mirroring options in menu bar
+defaults write NSStatusItem Visible com.apple.menuextra.airplay -bool true
+
+# Show Bluetooth  options in menu bar
+defaults write NSStatusItem Visible com.apple.menuextra.bluetooth -bool true
+
+# Show volume on menu bar
+defaults write NSStatusItem Visible com.apple.menuextra.volume -bool true
+
+# Show percentage on battery on menu bar
+defaults write com.apple.menuextra.battery ShowPercent YES
+
+# Remove Siri from menu bar
+defaults write com.apple.systemuiserver "NSStatusItem Visible Siri" -bool false
+
+###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
 
