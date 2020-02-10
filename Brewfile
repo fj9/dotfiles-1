@@ -50,7 +50,8 @@ cask 'java'
 # cask 'slack' UNCOMMENT NEXT TIME remove from App Store section
 # cask 'rectangle' UNCOMMENT NEXT TIME
 cask 'dropbox'
-cask  cheatsheet'
+cask 'cheatsheet'
+cask 'amazon-chime'
 
 # Fonts
 cask 'font-lato'
