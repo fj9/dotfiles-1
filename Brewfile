@@ -7,9 +7,9 @@ tap 'homebrew/bundle'
 
 # Install ZSH
 # brew 'zsh' after Catalina this is default 
-# brew 'zsh-completions' now aavailble as a plugin
 brew 'z'
 brew 'zsh-syntax-highlighting'
+brew 'zsh-autosuggestions'
 
 # Binaries
 brew 'awscli'
