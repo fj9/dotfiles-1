@@ -52,6 +52,7 @@ cask 'java'
 cask 'dropbox'
 cask 'cheatsheet'
 cask 'amazon-chime'
+cask 'spotify'
 
 # Fonts
 cask 'font-lato'

@@ -47,7 +47,9 @@ alias resolve="git add . && git commit --no-edit"
 alias gl="git log --oneline --decorate --color"
 alias nuke="git clean -df && git reset --hard"
 alias unstage="git restore --staged ."
+alias gitchangiest="git log --format=format: --name-only | egrep -v '^$' | sort | uniq -c | sort -rg | head -10"
 
 #Vim
 #with line numbers
 alias vimn='vim +"set number"'
+alias vimns='vim +"set number" +"syntax on"'

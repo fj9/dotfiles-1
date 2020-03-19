@@ -114,6 +114,9 @@ export LANG=en_US.UTF-8
 . `brew --prefix`/etc/profile.d/z.sh
 #export PATH="/usr/local/sbin:$PATH"
 
+# Git Prompt not sure about this
+#source $(brew --prefix)/opt/zsh-git-prompt/zshrc.sh
+
 # Auto Suggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
