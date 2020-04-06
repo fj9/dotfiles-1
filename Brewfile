@@ -31,6 +31,7 @@ brew 'zlib' # Needed for Memcached
 
 # Development
 brew 'terraform'
+brew 'maven'
 
 # Apps
 # cask '1password'
@@ -46,6 +47,7 @@ cask 'google-backup-and-sync'
 #cask 'google-chrome'
 #cask 'gpg-suite'
 #cask 'insomnia'
+cask 'postman'
 cask 'java'
 # cask 'slack' UNCOMMENT NEXT TIME remove from App Store section
 # cask 'rectangle' UNCOMMENT NEXT TIME
