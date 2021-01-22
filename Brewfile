@@ -1,6 +1,5 @@
 # Taps
 tap 'homebrew/cask'
-tap 'homebrew/cask-eid'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
@@ -18,10 +17,7 @@ brew 'bat' # "cat" on steroids
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
 brew 'git'
-brew 'gnupg2'
 brew 'grep'
-brew 'httpie'
-brew 'hub'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
@@ -32,6 +28,8 @@ brew 'zlib' # Needed for Memcached
 # Development
 brew 'terraform'
 brew 'maven'
+brew 'npm'
+brew 'yarn'
 
 # Apps
 # cask '1password'
@@ -67,8 +65,7 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Amphetamine', id: 937984704
-mas 'Slack', id: 803453959
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Xcode', id: 497799835
+#mas 'Slack', id: 803453959
+#mas 'Keynote', id: 409183694
+#mas 'Numbers', id: 409203825
+#mas 'Xcode', id: 497799835
